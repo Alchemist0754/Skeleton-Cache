@@ -1,0 +1,12 @@
+{
+  "split": "ntu60_55_5",
+  "num_classes": 5,
+  "class_names": ["reading", "writing", "put on hat/cap", "jump up", "touch other's pocket"],
+  "weights": {
+    "0": {"spatial": [0.40, 0.10, 0.45, 0.05], "temporal": [0.30, 0.40, 0.30], "gamma": 0.30},
+    "1": {"spatial": [0.20, 0.10, 0.60, 0.10], "temporal": [0.30, 0.40, 0.30], "gamma": 0.25},
+    "2": {"spatial": [0.40, 0.10, 0.45, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.30},
+    "3": {"spatial": [0.10, 0.25, 0.15, 0.50], "temporal": [0.30, 0.40, 0.30], "gamma": 0.45},
+    "4": {"spatial": [0.15, 0.20, 0.55, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.30}
+  }
+}

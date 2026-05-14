@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Editors / OS / agent state
+.idea/
+.vscode/
+.DS_Store
+.claude/
+
+# Training artifacts
+work_dir/
+tensorboard/
+*.log
+
+# Pre-encoded bundles and checkpoints (large; distribute via release assets)
+checkpoints/**/*.pt
+checkpoints/**/*.ckpt
+release/
+
+# External backbones cloned by the user (e.g. SMIE)
+external/*
+!external/.gitkeep

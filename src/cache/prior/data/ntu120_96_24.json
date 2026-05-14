@@ -1,0 +1,39 @@
+{
+  "split": "ntu120_96_24",
+  "num_classes": 24,
+  "class_names": [
+    "pickup", "clapping", "writing", "take off shoe", "take off glasses",
+    "take off hat/cap", "hand waving", "type on keyboard", "shake head",
+    "cross hands in front", "touch back (backache)", "punch/slap",
+    "walking apart", "thumb up", "make ok sign", "fold paper",
+    "apply cream on face", "take off bag", "throw up cap/hat",
+    "hands up (both)", "blow nose", "carry with other", "take photo",
+    "rock-paper-scissors"
+  ],
+  "weights": {
+    "0":  {"spatial": [0.15, 0.25, 0.45, 0.15], "temporal": [0.30, 0.40, 0.30], "gamma": 0.35},
+    "1":  {"spatial": [0.10, 0.10, 0.70, 0.10], "temporal": [0.25, 0.40, 0.35], "gamma": 0.20},
+    "2":  {"spatial": [0.20, 0.10, 0.60, 0.10], "temporal": [0.30, 0.40, 0.30], "gamma": 0.25},
+    "3":  {"spatial": [0.10, 0.20, 0.40, 0.30], "temporal": [0.30, 0.40, 0.30], "gamma": 0.30},
+    "4":  {"spatial": [0.45, 0.10, 0.40, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.25},
+    "5":  {"spatial": [0.40, 0.10, 0.45, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.30},
+    "6":  {"spatial": [0.10, 0.10, 0.70, 0.10], "temporal": [0.25, 0.40, 0.35], "gamma": 0.25},
+    "7":  {"spatial": [0.15, 0.10, 0.65, 0.10], "temporal": [0.30, 0.40, 0.30], "gamma": 0.20},
+    "8":  {"spatial": [0.65, 0.15, 0.15, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.30},
+    "9":  {"spatial": [0.10, 0.15, 0.65, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.25},
+    "10": {"spatial": [0.20, 0.45, 0.25, 0.10], "temporal": [0.30, 0.40, 0.30], "gamma": 0.35},
+    "11": {"spatial": [0.15, 0.15, 0.60, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.30},
+    "12": {"spatial": [0.10, 0.25, 0.20, 0.45], "temporal": [0.30, 0.40, 0.30], "gamma": 0.45},
+    "13": {"spatial": [0.10, 0.10, 0.70, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.25},
+    "14": {"spatial": [0.10, 0.10, 0.70, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.25},
+    "15": {"spatial": [0.20, 0.15, 0.55, 0.10], "temporal": [0.25, 0.40, 0.35], "gamma": 0.25},
+    "16": {"spatial": [0.45, 0.10, 0.40, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.25},
+    "17": {"spatial": [0.15, 0.20, 0.55, 0.10], "temporal": [0.20, 0.40, 0.40], "gamma": 0.30},
+    "18": {"spatial": [0.30, 0.10, 0.55, 0.05], "temporal": [0.20, 0.40, 0.40], "gamma": 0.30},
+    "19": {"spatial": [0.10, 0.15, 0.70, 0.05], "temporal": [0.25, 0.40, 0.35], "gamma": 0.30},
+    "20": {"spatial": [0.50, 0.10, 0.35, 0.05], "temporal": [0.30, 0.40, 0.30], "gamma": 0.25},
+    "21": {"spatial": [0.15, 0.30, 0.45, 0.10], "temporal": [0.25, 0.40, 0.35], "gamma": 0.35},
+    "22": {"spatial": [0.30, 0.10, 0.55, 0.05], "temporal": [0.30, 0.40, 0.30], "gamma": 0.30},
+    "23": {"spatial": [0.15, 0.15, 0.60, 0.10], "temporal": [0.30, 0.40, 0.30], "gamma": 0.25}
+  }
+}

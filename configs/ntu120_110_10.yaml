@@ -1,0 +1,23 @@
+experiment:
+  name: ntu120_110_10
+  dataset: ntu120
+  split: 110_10
+  seed: 5
+
+paths:
+  checkpoint_dir: ./checkpoints/ntu120_110_10
+  stgcn_repo: ./external/SMIE
+  test_data:           ./external/SMIE/data/zeroshot/ntu120/split_10/unseen_data.npy
+  test_label:          ./external/SMIE/data/zeroshot/ntu120/split_10/unseen_label.npy
+  language_embeddings: ./external/SMIE/data/language/ntu120_des_embeddings.npy
+  stgcn_checkpoint:    ./checkpoints/ntu120_110_10/stgcn.pt
+  mi_checkpoint:       ./checkpoints/ntu120_110_10/mi.pt
+
+backbone:
+  name: smie
+  args:
+    visual_size: 256
+    language_size: 768
+
+extract:
+  batch_size: 32
